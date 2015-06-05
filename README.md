@@ -1,5 +1,6 @@
 # koa-response-censor
-Filter out certain keys from the response body. Keep those secrets secret!
+
+Filter out certain keys from the response body. Keep those secrets secret! [![Build Status](https://travis-ci.org/murphyrandle/koa-response-censor.svg?branch=master)](https://travis-ci.org/murphyrandle/koa-response-censor)
 
 ================
 
