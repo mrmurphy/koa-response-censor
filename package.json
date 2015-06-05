@@ -1,6 +1,6 @@
 {
   "name": "koa-response-censor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A koa middleware for filtering out response body elements by key",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
     "co-mocha": "1.1.0",
     "lodash.has": "3.2.1",
     "mocha": "2.2.5",
-    "omit-deep": "0.1.2"
+    "omit-deep": "git://github.com/murphyrandle/omit-deep.git"
   }
 }
