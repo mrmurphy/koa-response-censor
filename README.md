@@ -1,2 +1,46 @@
-# koa-response-sensor
+# koa-response-censor
 Filter out certain keys from the response body. Keep those secrets secret!
+
+================
+
+## Install
+>Install with [npm](https://github.com/npm/npm)
+
+```
+$ npm install koa-response-censor
+```
+
+## Usage
+
+```js
+var app      = require('koa')(),
+    koaCensor   = require('koa-response-censor');
+
+app.use(koaCensor({
+  keys: [
+    'pwdHash',
+    '_secretKey',
+    'myPhoneNumber'
+  ]
+}));
+
+...
+
+// any keys at any depth of the response body matching
+// a term found in the array above will be omitted from
+// the response.
+
+```
+
+## Options
+
+- `keys` **{array}** An array of keys to be omitted (deeply) from the response body
+
+## Tests
+
+```
+$ npm test
+```
+
+## License
+The MIT License, 2014 [Murphy Randle](https://github.com/murphyrandle)

@@ -1,0 +1,32 @@
+{
+  "name": "koa-response-censor",
+  "version": "1.0.0",
+  "description": "A koa middleware for filtering out response body elements by key",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murphyrandle/koa-response-censor"
+  },
+  "keywords": [
+    "koa",
+    "response",
+    "filter",
+    "censor",
+    "screen"
+  ],
+  "author": "Murphy Randle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/murphyrandle/koa-response-censor/issues"
+  },
+  "homepage": "https://github.com/murphyrandle/koa-response-censor",
+  "dependencies": {
+    "co-mocha": "1.1.0",
+    "lodash.has": "3.2.1",
+    "mocha": "2.2.5",
+    "omit-deep": "0.1.2"
+  }
+}
