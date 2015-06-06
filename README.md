@@ -2,7 +2,7 @@
 
 Filter out certain keys from the response body. Keep those secrets secret! [![Build Status](https://travis-ci.org/murphyrandle/koa-response-censor.svg?branch=master)](https://travis-ci.org/murphyrandle/koa-response-censor)
 
-================
+![A little joke header image of censored text](https://cloud.githubusercontent.com/assets/1227109/8010577/88623048-0b6e-11e5-93ee-959dbdad8719.png)
 
 ## Install
 >Install with [npm](https://github.com/npm/npm)
